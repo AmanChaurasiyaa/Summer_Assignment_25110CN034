@@ -8,6 +8,7 @@ int main()
     printf("Enter the number for which you want to count the digits: ");
     scanf("%d",&Num);
     a=Num;
+
     while(Num!=0)
     {
     Num/=10;
