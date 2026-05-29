@@ -3,13 +3,16 @@
 #include<stdio.h>
 int main()
 {
-    int Num, Factorial=1;
+    int num, factorial=1;
+
     printf("enter the number for which you want to calculate the factorial: ");
-    scanf("%d",&Num);
-    for(int i=1;i<=Num;i++)
+    scanf("%d",&num);
+
+    for(int i=1;i<=num;i++)
     {
-        Factorial*=i;
+        factorial*=i;
     }
-    printf("The actorial of %d is: %d",Num,Factorial);
+    
+    printf("The actorial of %d is: %d",num,factorial);
     return 0;
 }

@@ -3,18 +3,18 @@
 #include<stdio.h>
 int main()
 {
-    int a,Num,count=0;
+    int duplicate,num,count=0;
     
     printf("Enter the number for which you want to count the digits: ");
-    scanf("%d",&Num);
-    a=Num;
+    scanf("%d",&num);
+    duplicate=num;
 
-    while(Num!=0)
+    while(num!=0)
     {
-    Num/=10;
+    num/=10;
     count++;
     }
 
-    printf("The number of digits in %d is: %d",a,count);
+    printf("The number of digits in %d is: %d",duplicate,count);
     return 0;
 }

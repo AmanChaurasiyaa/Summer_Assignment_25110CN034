@@ -4,16 +4,17 @@ natural numbers.*/
 #include<stdio.h>
 int main()
 {
-    int Num;
+    int num;
+    
     printf("enter the Natural number upto which you want to add: ");
-    scanf("%d",&Num);
+    scanf("%d",&num);
 
     int sum=0;
-    for(int i=1;i<=Num;i++)
+    for(int i=1;i<=num;i++)
     {
         sum+=i;
     }
 
-    printf ("the sum of first %d natural number is: %d",Num,sum);
+    printf ("the sum of first %d natural number is: %d",num,sum);
     return 0;
 }
