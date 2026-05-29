@@ -1,0 +1,1 @@
+Questions for Day1 are solved using C language.
