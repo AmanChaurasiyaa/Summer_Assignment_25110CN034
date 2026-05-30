@@ -1,0 +1,1 @@
+Questions for Day 3 are solved using C language.
