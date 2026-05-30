@@ -1,41 +1,35 @@
-/*Q10.  Write a program to Print prime numbers in a 
+/*Q10. Write a program to Print prime numbers in a 
 range. */
 
 #include<stdio.h>
-int main()  
+int main()
 {
+    int num1, num2, count=0;
 
-    int num, count=0;
+    printf("Enter the starting number of the range in which you want to check for prime numbers: ");
+    scanf("%d",&num1);
 
-    printf("Enter the number upto which you want to print the prime numbers: ");
-    scanf("%d", &num);
+    printf("Enter the ending number of the range in which you want to check for prime numbers: ");
+    scanf("%d",&num2);
 
-    if(num==(0||1))   {
-        printf("%d is neither a prime nor a composite number", num);
-    } 
-    /* Prime numbers must have exactly two distinct positive divisors whereas  Composite numbers must have more than two factors*/
-
-    else
+    printf("The prime numbers between %d and %d are: ", num1, num2);
+    for(int i=num1; i<=num2; i++)
     {
-        printf("the prime number in the range %d are: ",num);
-
-        for(int i=2; i<=num; i++)
+        count=0;
+        for( int j=2; j<=(i/2);j++)
         {
-            for(int j=2; j<=(i/2); j++) 
-            // j<=(i/2) because no number is divisible by the number which is more than its half.
+            if(i%j==0)
             {
-                if(i % j == 0)
-                {
-                    count++;
-                }
+                count++;
+                break;  //as soon as count = 1 the no. is no more prime.
             }
-            if(count==0)
-            {
-                printf("%d,\t", i);
-            }
+        }
 
-            count = 0;
+        if(count==0 && i>1) 
+        {
+            printf("%d ", i);
         }
     }
+
     return 0;
 }

@@ -1,19 +1,19 @@
-/*Q11.  Write a program to Find GCD of two numbers.*/
+//Q11.  Write a program to Find GCD of two numbers. 
 
 #include<stdio.h>
 int main()
 {
-    int num1, num2, num3, gcd;
+    int num1, num2, gcd;
 
-    printf("Enter the first Number: ");
-    scanf("%d", &num1);
+    printf("Enter the first number: ");
+    scanf("%d",&num1);
 
-    printf("Enter the second Number ");
-    scanf("%d", &num2);
+    printf("Enter the second number: ");
+    scanf("%d",&num2);
 
-    for(int i=1; (i<=num1)&&(i<=num2); i++) //GCD must not exceed any of the number.
+    for(int i=1; i<=num1 && i<=num2; i++)
     {
-        if(num1 % i==0 && num2 % i==0)   //when i divide both the numbe it's a common factor.
+        if(num1%i==0 && num2%i==0)
         {
             gcd = i;
         }
