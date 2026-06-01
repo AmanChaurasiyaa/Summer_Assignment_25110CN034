@@ -12,6 +12,7 @@ int main()
     scanf("%d",&num2);
 
     for(int i=1; i<=num1 && i<=num2; i++)
+    //GCD is never greater than any of the two numbers.
     {
         if(num1%i==0 && num2%i==0)
         {

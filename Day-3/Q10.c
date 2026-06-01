@@ -13,7 +13,7 @@ int main()
     scanf("%d",&num2);
 
     printf("The prime numbers between %d and %d are: ", num1, num2);
-    for(int i=num1; i<=num2; i++)
+    for(int i=num1; i<=num2; i++) //loop from num1 to num2 to check for prime numbers.
     {
         count=0;
         for( int j=2; j<=(i/2);j++)
