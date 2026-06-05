@@ -1,0 +1,1 @@
+Questions for Day 5 are solved using C language.
