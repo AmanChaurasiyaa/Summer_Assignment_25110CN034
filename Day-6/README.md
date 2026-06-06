@@ -1,0 +1,1 @@
+Questions for Day 6 are solved using C language.
