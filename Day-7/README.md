@@ -1,0 +1,1 @@
+Questions for Day 7 are solved using C language.
