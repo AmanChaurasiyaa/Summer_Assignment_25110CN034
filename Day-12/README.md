@@ -1,0 +1,1 @@
+Questions for Day 12 are solved using C language.
