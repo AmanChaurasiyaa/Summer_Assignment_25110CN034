@@ -1,0 +1,1 @@
+Questions for Day 14 are solved using C language.
