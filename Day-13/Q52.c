@@ -5,7 +5,6 @@
 int main()
 {
     int n, even=0, odd=0; // here n is size of array.
-    float average;   
     printf("Enter the size of Array: ");
     scanf("%d", &n);
 

@@ -4,8 +4,7 @@
 
 int main()
 {
-    int n; // here n is size of array.
-    float average;   
+    int n; // here n is size of array. 
     printf("Enter the size of Array: ");
     scanf("%d", &n);
 
