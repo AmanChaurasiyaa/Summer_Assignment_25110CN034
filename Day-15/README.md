@@ -1,0 +1,1 @@
+Questions for Day 15 are solved using C language.
