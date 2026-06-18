@@ -1,0 +1,1 @@
+Questions for Day 18 are solved using C language.
