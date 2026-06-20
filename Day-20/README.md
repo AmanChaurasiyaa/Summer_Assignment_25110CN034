@@ -1,0 +1,1 @@
+Questions for Day 20 are solved using C language.
