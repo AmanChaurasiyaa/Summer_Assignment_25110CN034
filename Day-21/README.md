@@ -1,0 +1,1 @@
+Questions for Day 21 are solved using C language.
