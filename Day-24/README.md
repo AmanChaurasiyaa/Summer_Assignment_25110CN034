@@ -1,0 +1,1 @@
+Questions for Day 24 are solved using C language.
