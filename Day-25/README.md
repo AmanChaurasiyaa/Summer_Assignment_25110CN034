@@ -1,0 +1,1 @@
+Questions for Day 25 are solved using C language.
