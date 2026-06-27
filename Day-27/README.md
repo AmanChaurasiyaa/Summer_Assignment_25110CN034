@@ -1,0 +1,1 @@
+Questions for Day 27 are solved using C language.
