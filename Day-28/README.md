@@ -1,0 +1,1 @@
+Questions for Day 28 are solved using C language.
